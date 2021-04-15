@@ -1,0 +1,31 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    .react-bootstrap-table table, th, tr, td {
+        border: none;
+        color: #444444;
+    }
+    .react-bootstrap-table th {
+        color: #444444;
+        text-align: center;
+    }
+    .react-bootstrap-table table td:first-child {
+        text-align: left;
+        color: #0011bb;
+        text-decoration: underline;
+    }
+    tr, td {
+        cursor: pointer;
+    }
+    h2 {
+        color: #444444;
+        margin: 40px 0 40px 0;
+    }
+    h4 {
+        color: #444444;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+}
