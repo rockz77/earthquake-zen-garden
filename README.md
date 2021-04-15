@@ -4,4 +4,5 @@ Built using React (not using create-react-app), function component architecture,
 
 Run app:
 
+`npm install`
 `npm run start`
